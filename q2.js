@@ -23,7 +23,7 @@ rl.question('Enter numbers separated by commas: ', (userInput) => {
   const userArray = userInput.split(",").map(Number);
   rl.close();
 
-  console.log("The missing number is:",MissingNumber(userArray)); // Output: 2
+  console.log("The missing number is:",MissingNumber(userArray));
 });
 
 
